@@ -5,5 +5,6 @@ def prime?(integer)
     i += 1
   end
   
-true
+    return false if integer <= 1
+
 end
